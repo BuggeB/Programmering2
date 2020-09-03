@@ -1,0 +1,13 @@
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Hello world\ArrayOListor\bin\Debug\netcoreapp3.1\ArrayOListor.exe
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Hello world\ArrayOListor\bin\Debug\netcoreapp3.1\ArrayOListor.deps.json
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Hello world\ArrayOListor\bin\Debug\netcoreapp3.1\ArrayOListor.runtimeconfig.json
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Hello world\ArrayOListor\bin\Debug\netcoreapp3.1\ArrayOListor.runtimeconfig.dev.json
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Hello world\ArrayOListor\bin\Debug\netcoreapp3.1\ArrayOListor.dll
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Hello world\ArrayOListor\bin\Debug\netcoreapp3.1\ArrayOListor.pdb
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Hello world\ArrayOListor\obj\Debug\netcoreapp3.1\ArrayOListor.csprojAssemblyReference.cache
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Hello world\ArrayOListor\obj\Debug\netcoreapp3.1\ArrayOListor.AssemblyInfoInputs.cache
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Hello world\ArrayOListor\obj\Debug\netcoreapp3.1\ArrayOListor.AssemblyInfo.cs
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Hello world\ArrayOListor\obj\Debug\netcoreapp3.1\ArrayOListor.csproj.CoreCompileInputs.cache
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Hello world\ArrayOListor\obj\Debug\netcoreapp3.1\ArrayOListor.dll
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Hello world\ArrayOListor\obj\Debug\netcoreapp3.1\ArrayOListor.pdb
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Hello world\ArrayOListor\obj\Debug\netcoreapp3.1\ArrayOListor.genruntimeconfig.cache
