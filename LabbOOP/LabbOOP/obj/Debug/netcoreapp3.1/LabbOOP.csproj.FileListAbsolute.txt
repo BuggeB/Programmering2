@@ -1,0 +1,13 @@
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\LabbOOP\LabbOOP\bin\Debug\netcoreapp3.1\LabbOOP.exe
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\LabbOOP\LabbOOP\bin\Debug\netcoreapp3.1\LabbOOP.deps.json
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\LabbOOP\LabbOOP\bin\Debug\netcoreapp3.1\LabbOOP.runtimeconfig.json
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\LabbOOP\LabbOOP\bin\Debug\netcoreapp3.1\LabbOOP.runtimeconfig.dev.json
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\LabbOOP\LabbOOP\bin\Debug\netcoreapp3.1\LabbOOP.dll
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\LabbOOP\LabbOOP\bin\Debug\netcoreapp3.1\LabbOOP.pdb
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\LabbOOP\LabbOOP\obj\Debug\netcoreapp3.1\LabbOOP.csprojAssemblyReference.cache
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\LabbOOP\LabbOOP\obj\Debug\netcoreapp3.1\LabbOOP.AssemblyInfoInputs.cache
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\LabbOOP\LabbOOP\obj\Debug\netcoreapp3.1\LabbOOP.AssemblyInfo.cs
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\LabbOOP\LabbOOP\obj\Debug\netcoreapp3.1\LabbOOP.csproj.CoreCompileInputs.cache
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\LabbOOP\LabbOOP\obj\Debug\netcoreapp3.1\LabbOOP.dll
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\LabbOOP\LabbOOP\obj\Debug\netcoreapp3.1\LabbOOP.pdb
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\LabbOOP\LabbOOP\obj\Debug\netcoreapp3.1\LabbOOP.genruntimeconfig.cache
