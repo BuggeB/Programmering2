@@ -8,16 +8,13 @@ namespace LabbOOP
     {
         public string _apple = "Apple";
         public string _dog = "Dog";
+        public string _nocco = "Nocco";
 
     }
-    class Liquid
+    class ProductChild : Product
     {
-        public string _cola = "Cola";
-        public string _nocco = "Nocco";
+        public string _freshapple = "Red apple";
+        public string _badapple = "Brown Apple";
     }
-    class Snacks
-    {
-        public string _chips = "Chips";
-        public string _popcorn = "Popcorn";
-    }
+    
 }
