@@ -24,5 +24,68 @@ namespace DemoWpf
         {
             InitializeComponent();
         }
+
+        public void OkButton_Klick(object sender, RoutedEventArgs e)
+        {
+            if (e.Source is Button button)
+            {
+                TextOne.Text += button.Content;
+            }
+        }
+        private void Equals(Object sender, RoutedEventArgs e)
+        {
+            if(TextOne.Text.Contains("+"))
+            {
+                TextOne.Text = Addition();
+            }
+            else if (TextOne.Text.Contains("-"))
+            {
+                TextOne.Text = Subtraction();
+            }
+            else if (TextOne.Text.Contains("x"))
+            {
+                TextOne.Text = Multiplication();
+            }
+            else if (TextOne.Text.Contains("/"))
+            {
+                TextOne.Text = Division();
+            }
+        } 
+        private string Addition()
+        {
+            var numbers = TextOne.Text.Split("+");
+            var number1 = Convert.ToDouble(numbers[0]);
+            var number2 = Convert.ToDouble(numbers[1]);
+            var sum = number1 + number2;
+            return sum + "";
+        }
+        private string Subtraction()
+        {
+            var numbers = TextOne.Text.Split("-");
+            var number1 = Convert.ToDouble(numbers[0]);
+            var number2 = Convert.ToDouble(numbers[1]);
+            var sum = number1 - number2;
+            return sum + "";
+        }
+        private string Multiplication()
+        {
+            var numbers = TextOne.Text.Split("x");
+            var number1 = Convert.ToDouble(numbers[0]);
+            var number2 = Convert.ToDouble(numbers[1]);
+            var sum = number1 * number2;
+            return sum + "";
+        }
+        private string Division()
+        {
+            var numbers = TextOne.Text.Split("/");
+            var number1 = Convert.ToDouble(numbers[0]);
+            var number2 = Convert.ToDouble(numbers[1]);
+            var sum = number1 / number2;
+            return sum + "";
+        }
+        private void Clear(Object sender, RoutedEventArgs e)
+        {
+            TextOne.Text = "";
+        }
     }
 }
