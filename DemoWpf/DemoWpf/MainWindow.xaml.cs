@@ -34,7 +34,7 @@ namespace DemoWpf
         }
         private void Equals(Object sender, RoutedEventArgs e)
         {
-            if(TextOne.Text.Contains("+"))
+            if (TextOne.Text.Contains("+"))
             {
                 TextOne.Text = Addition();
             }
@@ -50,7 +50,11 @@ namespace DemoWpf
             {
                 TextOne.Text = Division();
             }
-        } 
+            else if (TextOne.Text.Contains("²"))
+            {
+                TextOne.Text = Squared();
+            }
+        }
         private string Addition()
         {
             var numbers = TextOne.Text.Split("+");
@@ -90,6 +94,14 @@ namespace DemoWpf
         private void Regret(object sender, RoutedEventArgs e)
         {
             TextOne.Text = TextOne.Text.Remove(TextOne.Text.Length - 1);
+        }
+
+        private string Squared()
+        {
+            var numbers = TextOne.Text.Split("²");
+            var number1 = Convert.ToDouble(numbers[0]);
+            var sum = Math.Pow(number1, 2);
+            return sum + "";
         }
     }
 }
