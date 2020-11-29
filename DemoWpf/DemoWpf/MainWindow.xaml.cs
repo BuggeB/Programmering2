@@ -87,5 +87,9 @@ namespace DemoWpf
         {
             TextOne.Text = "";
         }
+        private void Regret(object sender, RoutedEventArgs e)
+        {
+            TextOne.Text = TextOne.Text.Remove(TextOne.Text.Length - 1);
+        }
     }
 }
