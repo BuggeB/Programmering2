@@ -54,6 +54,10 @@ namespace DemoWpf
             {
                 TextOne.Text = Squared();
             }
+            else if (TextOne.Text.Contains("√"))
+            {
+                TextOne.Text = SquareRoot();
+            }
         }
         private string Addition()
         {
@@ -101,6 +105,13 @@ namespace DemoWpf
             var numbers = TextOne.Text.Split("²");
             var number1 = Convert.ToDouble(numbers[0]);
             var sum = Math.Pow(number1, 2);
+            return sum + "";
+        }
+        private string SquareRoot()
+        {
+            var numbers = TextOne.Text.Split("√");
+            var number2 = Convert.ToDouble(numbers[1]);
+            var sum = Math.Sqrt(number2);
             return sum + "";
         }
     }

@@ -23,6 +23,7 @@
         </Grid.RowDefinitions>
 
         <TextBlock x:Name="TextOne" Grid.ColumnSpan="4" FontSize="50" FontWeight="Bold" VerticalAlignment="Center"></TextBlock>
+        <Button Click="OkButton_Klick" Grid.Row="1" FontSize="50">√</Button>
         <Button Click="OkButton_Klick" Grid.Column="1" Grid.Row="1" FontSize="50">²</Button>
         <Button Click ="Regret" Grid.Column="2" Grid.Row="1" FontSize="50">R</Button>
         <Button Click = "Clear" Grid.Column="3" Grid.Row="1" FontSize="50">C</Button>
