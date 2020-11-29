@@ -22,27 +22,27 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <TextBlock x:Name="TextOne" Grid.ColumnSpan="4" FontSize="50" FontWeight="Bold" VerticalAlignment="Center"></TextBlock>
-        <Button Click="OkButton_Klick" Grid.Row="1" FontSize="50">√</Button>
-        <Button Click="OkButton_Klick" Grid.Column="1" Grid.Row="1" FontSize="50">²</Button>
-        <Button Click ="Regret" Grid.Column="2" Grid.Row="1" FontSize="50">R</Button>
-        <Button Click = "Clear" Grid.Column="3" Grid.Row="1" FontSize="50">C</Button>
+        <TextBlock x:Name="TextOne" Grid.ColumnSpan="4" FontSize="54" FontWeight="Bold" VerticalAlignment="Center" Background="Gray"></TextBlock>
+        <Button Click="OkButton_Klick" Grid.Row="1" FontSize="50" Background="Orange">√</Button>
+        <Button Click="OkButton_Klick" Grid.Column="1" Grid.Row="1" FontSize="50" Background="Orange">²</Button>
+        <Button Click ="Regret" Grid.Column="2" Grid.Row="1" FontSize="50" Background="Orange">R</Button>
+        <Button Click = "Clear" Grid.Column="3" Grid.Row="1" FontSize="50" Background="Orange">C</Button>
         <Button Click = "OkButton_Klick" FontSize="50" Grid.Row="2">1</Button>
         <Button Click = "OkButton_Klick" FontSize="50" Grid.Column="1" Grid.Row="2">2</Button>
         <Button Click = "OkButton_Klick" FontSize="50" Grid.Column="2" Grid.Row="2">3</Button>
-        <Button Click = "OkButton_Klick" FontSize="50" Grid.Column="3" Grid.Row="2">/</Button>
+        <Button Click = "OkButton_Klick" FontSize="50" Grid.Column="3" Grid.Row="2" Background="Orange">/</Button>
         <Button Click = "OkButton_Klick" FontSize="50"  Grid.Row="3">4</Button>
         <Button Click = "OkButton_Klick" FontSize="50" Grid.Column="1" Grid.Row="3">5</Button>
         <Button Click = "OkButton_Klick" FontSize="50" Grid.Column="2" Grid.Row="3">6</Button>
-        <Button Click = "OkButton_Klick" FontSize="50" Grid.Column="3" Grid.Row="3">x</Button>
+        <Button Click = "OkButton_Klick" FontSize="50" Grid.Column="3" Grid.Row="3" Background="Orange">x</Button>
         <Button Click = "OkButton_Klick" FontSize="50" Grid.Row="4">7</Button>
         <Button Click = "OkButton_Klick" FontSize="50" Grid.Column="1" Grid.Row="4">8</Button>
         <Button Click = "OkButton_Klick" FontSize="50" Grid.Column="2" Grid.Row="4">9</Button>
-        <Button Click = "OkButton_Klick" FontSize="50" Grid.Column="3" Grid.Row="4">-</Button>
+        <Button Click = "OkButton_Klick" FontSize="50" Grid.Column="3" Grid.Row="4" Background="Orange">-</Button>
         <Button Click = "OkButton_Klick" FontSize="50" Grid.Row="5">,</Button>
         <Button Click = "OkButton_Klick" FontSize="50" Grid.Column="1" Grid.Row="5">0</Button>
         <Button Click = "Equals" FontSize="50" Grid.Column="2" Grid.Row="5">=</Button>
-        <Button Click = "OkButton_Klick" FontSize="50" Grid.Column="3" Grid.Row="5">+</Button>
+        <Button Click = "OkButton_Klick" FontSize="50" Grid.Column="3" Grid.Row="5" Background="Orange">+</Button>
         
 
     </Grid>
