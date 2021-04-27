@@ -1,0 +1,13 @@
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Labb Observer Pattern\Labb Observer Pattern\bin\Debug\netcoreapp3.1\Labb Observer Pattern.exe
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Labb Observer Pattern\Labb Observer Pattern\bin\Debug\netcoreapp3.1\Labb Observer Pattern.deps.json
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Labb Observer Pattern\Labb Observer Pattern\bin\Debug\netcoreapp3.1\Labb Observer Pattern.runtimeconfig.json
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Labb Observer Pattern\Labb Observer Pattern\bin\Debug\netcoreapp3.1\Labb Observer Pattern.runtimeconfig.dev.json
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Labb Observer Pattern\Labb Observer Pattern\bin\Debug\netcoreapp3.1\Labb Observer Pattern.dll
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Labb Observer Pattern\Labb Observer Pattern\bin\Debug\netcoreapp3.1\Labb Observer Pattern.pdb
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Labb Observer Pattern\Labb Observer Pattern\obj\Debug\netcoreapp3.1\Labb Observer Pattern.csprojAssemblyReference.cache
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Labb Observer Pattern\Labb Observer Pattern\obj\Debug\netcoreapp3.1\Labb Observer Pattern.AssemblyInfoInputs.cache
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Labb Observer Pattern\Labb Observer Pattern\obj\Debug\netcoreapp3.1\Labb Observer Pattern.AssemblyInfo.cs
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Labb Observer Pattern\Labb Observer Pattern\obj\Debug\netcoreapp3.1\Labb Observer Pattern.csproj.CoreCompileInputs.cache
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Labb Observer Pattern\Labb Observer Pattern\obj\Debug\netcoreapp3.1\Labb Observer Pattern.dll
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Labb Observer Pattern\Labb Observer Pattern\obj\Debug\netcoreapp3.1\Labb Observer Pattern.pdb
+C:\Users\gustav.bogeskar\Documents\GitHub\Programmering2\Labb Observer Pattern\Labb Observer Pattern\obj\Debug\netcoreapp3.1\Labb Observer Pattern.genruntimeconfig.cache
