@@ -69,22 +69,22 @@ namespace EndlessRunner.wpf
         }
 
         /// <summary>
-        /// 
+        /// Själva motorn för spelet som ställer in alla bakgrunder och som får spelaren att fungera
         /// </summary>
-        /// <param name="sender"></param>
+        /// <param name="sender"> objektet </param>
         /// <param name="e"></param>
         private void GameEngine(object sender, EventArgs e)
         {
             Canvas.SetLeft(background, Canvas.GetLeft(background) - 3);
             Canvas.SetLeft(background2, Canvas.GetLeft(background2) - 3);
 
-            // 
+            // Sätter bakgrund och storlek
             if (Canvas.GetLeft(background) < -1262)
             {
                 Canvas.SetLeft(background, Canvas.GetLeft(background2) + background2.Width);
             }
 
-            // 
+            // Sätter bakgrund och storlek
             if (Canvas.GetLeft(background2) < -1262)
             {
                 Canvas.SetLeft(background2, Canvas.GetLeft(background) + background.Width);
@@ -99,7 +99,7 @@ namespace EndlessRunner.wpf
             obsticleHitBox = new Rect(Canvas.GetLeft(obsticle), Canvas.GetTop(obsticle), obsticle.Width, obsticle.Height);
             groundHitBox = new Rect(Canvas.GetLeft(ground), Canvas.GetTop(ground), ground.Width, ground.Height);
 
-            //
+            // Kontrollerar om spelaren nuddar marken
             if (playerHitBox.IntersectsWith(groundHitBox))
             {
                 speed = 0;
@@ -109,7 +109,8 @@ namespace EndlessRunner.wpf
                 jumping = false;
 
                 Spriteindex += .5;
-             //
+
+             // Kontrollerar antalet "sprites" på skärmen
                 if (Spriteindex > 8)
                 {
                     Spriteindex = 1;
@@ -118,7 +119,7 @@ namespace EndlessRunner.wpf
                 RunSprite(Spriteindex);
             }
 
-            // 
+            // Om man hoppar så blir man lite långsammare
             if(jumping == true)
             {
                 speed = -9;
@@ -130,13 +131,13 @@ namespace EndlessRunner.wpf
                 speed = 12;
             }
 
-            //
+            // Om force är under 0 så kan man inte hoppa
             if(force < 0)
             {
                 jumping = false;
             }
 
-            //
+            // För varje hinder som man hoppar över så får man ett till poäng
             if(Canvas.GetLeft(obsticle) < -50)
             {
                 Canvas.SetLeft(obsticle, 950);
@@ -146,7 +147,7 @@ namespace EndlessRunner.wpf
                 score += 1;
             }
 
-            //
+            // Om spelaren träffar ett hinder så avslutas spelet
             if (playerHitBox.IntersectsWith(obsticleHitBox))
             {
                 gameOver = true;
@@ -154,7 +155,7 @@ namespace EndlessRunner.wpf
                 gameTimer.Stop();
             }
 
-            // 
+            // Om spelet tar slut så får man upp sina poäng samt en fråga om man vill spela igen genom att klicka på enter
             if(gameOver == true)
             {
                 obsticle.Stroke = Brushes.Black;
@@ -175,10 +176,11 @@ namespace EndlessRunner.wpf
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender"> objektet </param>
+        /// <param name="e"> sender (Enter knappen) </param>
         private void KeyIsDown(object sender, KeyEventArgs e)
         {
+           // När man klickar på enter så startas spelet
             if (e.Key == Key.Enter && gameOver == true)
             {
                 StartGame();
@@ -190,10 +192,11 @@ namespace EndlessRunner.wpf
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender"> objektet </param>
+        /// <param name="e"> sender (space kanppen) </param>
         private void KeyIsUp(object sender, KeyEventArgs e)
         {
+            // Om man trucker ner space tangenten och man inte är i luften så kommer gubben att hoppa
             if (e.Key == Key.Space && jumping == false && Canvas.GetTop(player) > 260)
             {
                 jumping = true;
@@ -206,6 +209,9 @@ namespace EndlessRunner.wpf
 
 
 
+        /// <summary>
+        /// Ställer in standardvärderna för spelet när spelet startas
+        /// </summary>
         private void StartGame()
         {
             Canvas.SetLeft(background, 0);
@@ -233,9 +239,9 @@ namespace EndlessRunner.wpf
         }
 
         /// <summary>
-        /// 
+        /// Olika animationer för karaktären beroende på vad den gör
         /// </summary>
-        /// <param name="i"></param>
+        /// <param name="i"> Eventet </param>
         private void RunSprite(double i)
         {
             switch (i)
