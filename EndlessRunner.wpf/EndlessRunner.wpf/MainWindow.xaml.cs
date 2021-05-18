@@ -60,7 +60,7 @@ namespace EndlessRunner.wpf
             gameTimer.Tick += GameEngine;
             gameTimer.Interval = TimeSpan.FromMilliseconds(20);
 
-            backgroundSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/background.gif"));
+            backgroundSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,, /images/background.gif"));
 
             background.Fill = backgroundSprite;
             background2.Fill = backgroundSprite;
@@ -225,7 +225,7 @@ namespace EndlessRunner.wpf
 
             RunSprite(1);
 
-            obsticleSprite.ImageSource = backgroundSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/obstacle.png"));
+            obsticleSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/obstacle.png"));
             obsticle.Fill = obsticleSprite;
 
             jumping = false;
@@ -247,28 +247,28 @@ namespace EndlessRunner.wpf
             switch (i)
             {
                 case 1:
-                    playerSprite.ImageSource = backgroundSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/newRunner_01.gif"));
+                    playerSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,, /images/newRunner_01.gif"));
                     break;
                 case 2:
-                    playerSprite.ImageSource = backgroundSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/newRunner_02.gif"));
+                    playerSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,, /images/newRunner_02.gif"));
                     break;
                 case 3:
-                    playerSprite.ImageSource = backgroundSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/newRunner_03.gif"));
+                    playerSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,, /images/newRunner_03.gif"));
                     break;
                 case 4:
-                    playerSprite.ImageSource = backgroundSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/newRunner_04.gif"));
+                    playerSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/newRunner_04.gif"));
                     break;
                 case 5:
-                    playerSprite.ImageSource = backgroundSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/newRunner_05.gif"));
+                    playerSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/newRunner_05.gif"));
                     break;
                 case 6:
-                    playerSprite.ImageSource = backgroundSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/newRunner_06.gif"));
+                    playerSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/newRunner_06.gif"));
                     break;
                 case 7:
-                    playerSprite.ImageSource = backgroundSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/newRunner_07.gif"));
+                    playerSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/newRunner_07.gif"));
                     break;
                 case 8:
-                    playerSprite.ImageSource = backgroundSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/newRunner_08.gif"));
+                    playerSprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/newRunner_08.gif"));
                     break;
             }
 
